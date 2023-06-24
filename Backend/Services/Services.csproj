@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AuthScape.SendGrid" Version="1.0.128" />
+    <PackageReference Include="AuthScape.StripePayment" Version="1.0.128" />
+    <PackageReference Include="CoreBackpack" Version="1.0.38" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.54.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\Services.Database\Services.Database.csproj" />
+  </ItemGroup>
+
+</Project>
